@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>me.bakuleva</groupId>
-    <artifactId>courseWork3</artifactId>
+    <artifactId>socksWarehouseApp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>courseWork3</name>
-    <description>courseWork3</description>
+    <name>socksWarehouseApp</name>
+    <description>socksWarehouseApp</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -31,7 +31,18 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.14</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
